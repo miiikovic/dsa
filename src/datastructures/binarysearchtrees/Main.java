@@ -13,7 +13,11 @@ public class Main {
 
         myBST.insert(27);
 
+        myBST.rInsert(69);
+
         System.out.println("root = " + myBST.root);
-        System.out.println(myBST.root.left.right.value);
+        System.out.println("Does it contain 18?: " + myBST.rContains(18));
+        System.out.println("Does it contain 69?: " + myBST.rContains(69));
+
     }
 }
