@@ -20,5 +20,8 @@ public class Main {
 //        System.out.println("Does it contain 69?: " + myBST.rContains(69));
 
         System.out.println(myBST.BFS());
+        System.out.println(myBST.DFSPreOrder());
+        System.out.println(myBST.DFSPostOrder());
+        System.out.println(myBST.DFSInOrder());
     }
 }
